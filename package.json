@@ -4,7 +4,10 @@
   "description": "authentication in next js using express",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "next build",
+    "heroku-postbuild": "next build"
   },
   "repository": {
     "type": "git",
